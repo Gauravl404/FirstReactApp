@@ -2,10 +2,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 
-
-
-
-
 const CardList=(props) =>(
   <div>
     {props.profiles.map(profile =><ProfileCard {...profile}/>)}
@@ -40,7 +36,7 @@ return(
         FOLLOWERS :-{profile.followers}
       </Card.Text>
       <Card.Link href={profile.html_url}>VIEW ON GITHUB</Card.Link>
-      <Card.Link href={profile.blog}>VISIT PORTFOLIO/BLOG</Card.Link>
+      <Card.Link href={profile.blog}>VISIT PORTFOLIO OR BLOG</Card.Link>
     </Card.Body>
   </Card>
   </CardDeck>
