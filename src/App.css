@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-image: url(./components/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vw;
+  width: 100%;
+}
+
